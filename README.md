@@ -1,5 +1,8 @@
 amznjp-url-normalize
 --------------------
+[![Build Status](https://travis-ci.org/pine613/amznjp-url-normalize.svg?branch=master)](https://travis-ci.org/pine613/amznjp-url-normalize)
+[![Dependency Status](https://david-dm.org/pine613/amznjp-url-normalize.svg)](https://david-dm.org/pine613/amznjp-url-normalize)
+[![devDependency Status](https://david-dm.org/pine613/amznjp-url-normalize/dev-status.svg)](https://david-dm.org/pine613/amznjp-url-normalize#info=devDependencies)
 
 Amazon.co.jp の URL を正規化します。クロスドメイン XHR には対応していないので、ブラウザでは動作しません。
 

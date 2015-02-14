@@ -1,12 +1,26 @@
 {
   "name": "amznjp-url-normalize",
   "version": "1.0.0",
-  "description": "",
+  "description": "Normalize URL of Amazon.co.jp",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib",
+    "LICENSE",
+    "*.md"
+  ],
   "scripts": {
     "test": "mocha -R spec -t 5000 test/**/*.js"
   },
-  "author": "Pine Mizune",
+  "author": {
+    "name": "Pine Mizune",
+    "email": "pinemz@gmail.com",
+    "url": "https://github.com/pine613"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pine613/amznjp-url-normalize.git"
+  },
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.2.0",
