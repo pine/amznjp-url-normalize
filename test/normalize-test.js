@@ -40,10 +40,46 @@ describe('Normalize test', function () {
           expect(params.asin).to.equal(url.asin);
           expect(params.url).to.equal(url.normalized);
           done();
-        } catch (e) {
+        }
+        
+        catch (e) {
           done(e);
         }
       });
+    });
+  });
+  
+  it('should normalize url with options', function (done) {
+    var url = AMAZON_URLS[0];
+    var options = {
+      prefix: '[PREFIX]',
+      suffix: '[SUFFIX]'
+    };
+    
+    normalize(url.raw, options, function (err, params) {
+      try {
+        expect(err).to.not.be.ok;
+        expect(params.asin).to.equal(url.asin);
+        expect(params.url).to.equal(options.prefix + url.asin + options.suffix);
+        done();
+      }
+      
+      catch (e) {
+        done(e); 
+      }
+    });
+  });
+  
+  it('should normalize url failed because url is invalid', function (done) {
+    normalize('http://www.xamazon.co.jp/invalid_url', function (err, params) {
+      try {
+        expect(err).to.be.ok;
+        done();
+      }
+      
+      catch (e) {
+        done(e);
+      }
     });
   });
 });
