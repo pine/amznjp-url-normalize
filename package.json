@@ -1,6 +1,6 @@
 {
   "name": "amznjp-url-normalize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Normalize URL of Amazon.co.jp",
   "main": "index.js",
   "files": [
