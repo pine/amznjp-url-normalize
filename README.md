@@ -20,6 +20,7 @@ var url = 'http://www.amazon.co.jp/gp/product/B00Q5QBZCA/ref=s9_qpp_gw_p15_d7_i4
 normalize(url, function (err, params) {
   if (err) {
     console.error(err);
+    return;
   }
   
   console.log(params.asin); // => 'B00Q5Y1P5Y'
