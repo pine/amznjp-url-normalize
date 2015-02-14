@@ -27,6 +27,31 @@ normalize(url, function (err, params) {
 });
 ```
 
+## リファレンス
+
+### normalize(url, cb)
+
+```js
+normalize("Amazon.co.jp の商品ページの URL", function (err, params) {
+  // params.asin
+  // params.url
+});
+```
+
+### normalize(url, options, cb)
+
+```js
+var options = {
+  prefix: 'http://www.amazon.co.jp/dp/', // ASIN の前につける文字列
+  suffix: '' // ASIN の後につける文字列
+};
+
+normalize("Amazon.co.jp の商品ページの URL", options, function (err, params) {
+  // params.asin
+  // params.url
+});
+```
+
 ## ライセンス
 MIT License<br />
 Copyright (c) 2015 Pine Mizune
