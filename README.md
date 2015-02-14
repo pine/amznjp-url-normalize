@@ -1,5 +1,6 @@
 amznjp-url-normalize
 --------------------
+[![npm version](https://badge.fury.io/js/lestia.svg)](http://badge.fury.io/js/amznjp-url-normalize)
 [![Build Status](https://travis-ci.org/pine613/amznjp-url-normalize.svg?branch=master)](https://travis-ci.org/pine613/amznjp-url-normalize)
 [![Dependency Status](https://david-dm.org/pine613/amznjp-url-normalize.svg)](https://david-dm.org/pine613/amznjp-url-normalize)
 [![devDependency Status](https://david-dm.org/pine613/amznjp-url-normalize/dev-status.svg)](https://david-dm.org/pine613/amznjp-url-normalize#info=devDependencies)
