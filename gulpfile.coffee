@@ -16,12 +16,13 @@ gulp.task 'test', (cb) ->
     .on 'finish', ->
       gulp.src 'test/**/*.js'
         .pipe plumber()
-        .pipe mocha( reporter: 'spec' )
+        .pipe mocha
+          reporter: 'spec'
+          timeout: 5000
         .on 'error', (err) ->
           mochaErr = err
         .pipe istanbul.writeReports()
         .on 'end', ->
-          console.log 'end'
           cb(mochaErr)
   
   undefined
