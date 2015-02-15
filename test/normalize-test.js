@@ -82,4 +82,18 @@ describe('Normalize test', function () {
       }
     });
   });
+  
+  it('should normalize url failed because url isn\'t a item page', function (done) {
+    var url = 'http://www.amazon.co.jp/gp/help/customer/display.html?ie=UTF8&nodeId=642938';
+    normalize(url, function (err, params) {
+      try {
+        expect(err).to.be.ok;
+        done();
+      }
+      
+      catch (e) {
+        done(e);
+      }
+    });
+  });
 });
