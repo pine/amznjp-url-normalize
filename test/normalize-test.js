@@ -24,6 +24,11 @@ var AMAZON_URLS = [
     raw: 'http://www.amazon.co.jp/dp/B00Q5Y1P5Y/ref=s9_qpp_gw_p15_d7_i3',
     normalized: 'http://www.amazon.co.jp/dp/B00Q5Y1P5Y',
     asin: 'B00Q5Y1P5Y'
+  },
+  {
+    raw: 'http://www.amazon.co.jp/ソフトウェア・テストの技法-G-J-マイヤーズ/dp/4764900599',
+    normalized: 'http://www.amazon.co.jp/dp/4764900599',
+    asin: '4764900599'
   }
 ];
 
