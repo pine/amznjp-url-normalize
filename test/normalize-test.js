@@ -29,6 +29,11 @@ var AMAZON_URLS = [
     raw: 'http://www.amazon.co.jp/ソフトウェア・テストの技法-G-J-マイヤーズ/dp/4764900599',
     normalized: 'http://www.amazon.co.jp/dp/4764900599',
     asin: '4764900599'
+  },
+  {
+    raw: 'http://www.amazon.co.jp/GAMBARU-SHOP-iPhone5%E5%AF%BE%E5%BF%9C-%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84-%E3%82%A2%E3%83%BC%E3%83%A0%E3%83%90%E3%83%B3%E3%83%89/dp/B00D8QF4A4/ref=sr_1_6?ie=UTF8&qid=1425571891&sr=8-6&keywords=%E3%83%A9%E3%83%B3%E3%83%8B%E3%83%B3%E3%82%B0',
+    normalized: 'http://www.amazon.co.jp/dp/B00D8QF4A4',
+    asin: 'B00D8QF4A4'
   }
 ];
 
