@@ -10,7 +10,7 @@ jshint = require 'gulp-jshint'
 
 gulp.task 'mocha', (cb) ->
   mochaErr = null
-  
+
   gulp.src ['index.js', 'lib/**/*.js']
     .pipe istanbul( includeUntested: true )
     .pipe istanbul.hookRequire()
@@ -25,7 +25,7 @@ gulp.task 'mocha', (cb) ->
         .pipe istanbul.writeReports()
         .on 'end', ->
           cb(mochaErr)
-  
+
   undefined
 
 
@@ -42,4 +42,4 @@ gulp.task 'coveralls', ['mocha'], ->
 
 
 gulp.task 'test', ['jshint', 'mocha']
-gulp.task 'default', ['test', 'coveralls']
+gulp.task 'cover', ['coveralls']
