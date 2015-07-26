@@ -5,4 +5,4 @@ node_js:
   - iojs
 
 after_success:
-  - gulp cover
+  - npm run cover

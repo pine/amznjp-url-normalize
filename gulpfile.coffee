@@ -35,7 +35,7 @@ gulp.task 'jshint', ->
     .pipe jshint.reporter('default')
 
 
-gulp.task 'coveralls', ['mocha'], ->
+gulp.task 'coveralls', ->
   if process.env.CI
     gulp.src path.join(__dirname, 'coverage/lcov.info')
       .pipe coveralls()
