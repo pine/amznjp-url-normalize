@@ -10,7 +10,8 @@
     "*.md"
   ],
   "scripts": {
-    "test": "gulp"
+    "test": "gulp test",
+    "cover": "gulp cover"
   },
   "author": {
     "name": "Pine Mizune",
