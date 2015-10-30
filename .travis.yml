@@ -8,3 +8,7 @@ node_js:
 
 after_success:
   - npm run cover
+
+notifications:
+  slack:
+    secure: "SbnwAcRcJihYW5HI7fqUfKbYMM49naEqG6a97tsQxoIqtqrA636X7vqJ3WBJa1XlnYyncHSMn1aLJ0KAQmS34sPeWVsIo+rDYJbX2ILIfpD/jQAC9U/UMp/+1600iIkIi3QliS2roTWhKpFJYjoqueRAHUCXvN79vQw8/7OUlvQ="
