@@ -23,7 +23,7 @@ normalize(url, function (err, params) {
     console.error(err);
     return;
   }
-  
+
   console.log(params.asin); // => 'B00Q5QBZCA'
   console.log(params.url);  // => 'http://www.amazon.co.jp/dp/B00Q5QBZCA'
 });
@@ -54,6 +54,5 @@ normalize("Amazon.co.jp の商品ページの URL", options, function (err, para
 });
 ```
 
-## ライセンス
-MIT License<br />
-Copyright (c) 2015 Pine Mizune
+## License
+MIT License
