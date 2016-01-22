@@ -6,9 +6,9 @@ amznjp-url-normalize
 [![Dependency Status](https://david-dm.org/pine613/amznjp-url-normalize.svg)](https://david-dm.org/pine613/amznjp-url-normalize)
 [![devDependency Status](https://david-dm.org/pine613/amznjp-url-normalize/dev-status.svg)](https://david-dm.org/pine613/amznjp-url-normalize#info=devDependencies)
 
-Amazon.co.jp の URL を正規化します。クロスドメイン XHR には対応していないので、ブラウザでは動作しません。
+The URL normalizer of Amazon.co.jp. It works in Node.js, but any browsers not supported.
 
-## 利用方法
+## Usage
 
 ```js
 var normalize = require('amznjp-url-normalize');
@@ -29,12 +29,12 @@ normalize(url, function (err, params) {
 });
 ```
 
-## リファレンス
+## References
 
 ### normalize(url, cb)
 
 ```js
-normalize("Amazon.co.jp の商品ページの URL", function (err, params) {
+normalize("The URL of Amazon.co.jp", function (err, params) {
   // params.asin
   // params.url
 });
@@ -44,11 +44,11 @@ normalize("Amazon.co.jp の商品ページの URL", function (err, params) {
 
 ```js
 var options = {
-  prefix: 'http://www.amazon.co.jp/dp/', // ASIN の前につける文字列
-  suffix: '' // ASIN の後につける文字列
+  prefix: 'http://www.amazon.co.jp/dp/', // A prefix of result URL
+  suffix: '' // A suffix of result URL
 };
 
-normalize("Amazon.co.jp の商品ページの URL", options, function (err, params) {
+normalize("The URL of Amazon.co.jp", options, function (err, params) {
   // params.asin
   // params.url
 });
