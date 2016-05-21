@@ -1,10 +1,10 @@
 amznjp-url-normalize
 --------------------
 [![npm version](https://badge.fury.io/js/amznjp-url-normalize.svg)](http://badge.fury.io/js/amznjp-url-normalize)
-[![Build Status](https://travis-ci.org/pine613/amznjp-url-normalize.svg?branch=master)](https://travis-ci.org/pine613/amznjp-url-normalize)
-[![Coverage Status](https://coveralls.io/repos/pine613/amznjp-url-normalize/badge.svg?branch=master)](https://coveralls.io/r/pine613/amznjp-url-normalize?branch=master)
-[![Dependency Status](https://david-dm.org/pine613/amznjp-url-normalize.svg)](https://david-dm.org/pine613/amznjp-url-normalize)
-[![devDependency Status](https://david-dm.org/pine613/amznjp-url-normalize/dev-status.svg)](https://david-dm.org/pine613/amznjp-url-normalize#info=devDependencies)
+[![Build Status](https://travis-ci.org/pine/amznjp-url-normalize.svg?branch=master)](https://travis-ci.org/pine/amznjp-url-normalize)
+[![Coverage Status](https://coveralls.io/repos/pine/amznjp-url-normalize/badge.svg?branch=master)](https://coveralls.io/r/pine/amznjp-url-normalize?branch=master)
+[![Dependency Status](https://david-dm.org/pine/amznjp-url-normalize.svg)](https://david-dm.org/pine/amznjp-url-normalize)
+[![devDependency Status](https://david-dm.org/pine/amznjp-url-normalize/dev-status.svg)](https://david-dm.org/pine/amznjp-url-normalize#info=devDependencies)
 
 The URL normalizer of Amazon.co.jp. It works in Node.js, but any browsers not supported.
 
