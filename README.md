@@ -4,7 +4,7 @@ amznjp-url-normalize
 [![Build Status](https://img.shields.io/travis/pine/amznjp-url-normalize/master.svg?style=flat-square)](https://travis-ci.org/pine/amznjp-url-normalize)
 [![Coverage Status](https://img.shields.io/coveralls/pine/amznjp-url-normalize/master.svg?style=flat-square)](https://coveralls.io/r/pine/amznjp-url-normalize?branch=master)
 [![Dependency Status](https://img.shields.io/david/pine/amznjp-url-normalize.svg?style=flat-square)](https://david-dm.org/pine/amznjp-url-normalize)
-[![devDependency Status](https://img.shields.io/david/dev/pine/amznjp-url-normalize.svg?style=flat-square)](https://david-dm.org/pine/amznjp-url-normalize#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/pine/amznjp-url-normalize.svg?style=flat-square)](https://david-dm.org/pine/amznjp-url-normalize#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/amznjp-url-normalize.svg)](https://greenkeeper.io/)
 
 The URL normalizer of Amazon.co.jp. It works in Node.js, but any browsers not supported.
 
